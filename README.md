@@ -41,3 +41,9 @@ Destroy(gameObject);
 }
 }
 ```
+
+***
+
+- [ ] subscribe?
+- [x] yes
+- [ ] no
