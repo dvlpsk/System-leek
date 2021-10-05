@@ -12,9 +12,26 @@
 *Time for some bias*
 
 >`This is a small tile`
+
+
 >```This is a big tile```
 
 
 
-|umn|skd|dsdl|
+|sub|to|me|
 |:--------|:--------:|--------:|
+|subscribers|views|reviews|
+|94|18k|9k|
+
+```csharp
+int count;
+public void Update()
+{
+count+=Time.deltaTime;
+if(count>=10)
+{
+count=0;
+Destroy(gameObject);
+}
+}
+```
